@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Clonar Código') {
+        stage('Clonar Códigos') {
             steps {
                 git 'https://github.com/cristianruiz-23/jenkis.git'
             }
